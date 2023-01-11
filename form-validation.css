@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#form {
+  background-color: rgba(223, 223, 67, 0.938);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+#form input {
+  
+}
+
+#form label {
+  font-size: small;
+}
+
+#btn {
+  margin-top: 4px;
+  width: 64px;
+}
+
+.form-error {
+  color: red;
+  font-size: smaller;
+  /* margin: 0; */
+  margin-bottom: 8px;
+}
+
+.succefull {
+  border: 1px solid green;
+}
